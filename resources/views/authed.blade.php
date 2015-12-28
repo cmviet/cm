@@ -12,7 +12,7 @@
   
 
   <link rel="stylesheet" href="/statics/styles/app.min.css">
-  @yield('addcss')
+  @section('addcss')
 
 </head>
 
@@ -449,7 +449,7 @@
         </ul>
       </header>
       <!-- /top header -->
-      @yield('content')
+      @section('content')
 
       <!-- /main area -->
     </div>
@@ -542,7 +542,7 @@
   </div>
 </div>
   <script src="/statics/app/app.min.js"></script>
-  @yield('addjs')
+  @section('addjs')
 </body>
 
 </html>
