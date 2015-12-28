@@ -1,23 +1,15 @@
 <!DOCTYPE html>
-<html class=" js no-touch csstransforms csstransforms3d svg" lang="vi"><head>
+<html class=" js no-touch csstransforms csstransforms3d svg" lang="vi">
+<head>
   <meta charset="utf-8">
   <title>@yield('title')</title>
   <meta name="description" content="CloudMedia Partners Portal">
   <meta name="viewport" content="width=device-width">
-  <!--<meta id="refresh" http-equiv="REFRESH" content="910" />-->
   <link rel="shortcut icon" href="/statics/favicon.ico">
-
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-  
-
   <link rel="stylesheet" href="/statics/styles/app.min.css">
   @section('addcss')
-
 </head>
-
 <body>
-
   <!-- quick launch panel -->
   <div class="quick-launch-panel">
     <div class="container">
@@ -61,7 +53,6 @@
   <!-- /quick launch panel -->
 
   <div class="app layout-fixed-header">
-
     <!-- sidebar panel -->
     <div class="sidebar-panel offscreen-left">
 
@@ -350,7 +341,6 @@
 
     <!-- content panel -->
     <div class="main-panel">
-
       <!-- top header -->
       <header class="header navbar">
 
@@ -449,9 +439,13 @@
         </ul>
       </header>
       <!-- /top header -->
-      @section('content')
-
-      <!-- /main area -->
+      
+      <!-- main content -->
+      <div class="main-content">
+        @section('content')
+      </div>
+      <!-- /main content -->
+      
     </div>
     <!-- /content panel -->
 
@@ -518,7 +512,7 @@
     </div>
     <!-- /chat -->
   </div>
-<div class="modal bs-modal-sm" tabindex=-1 role="dialog" aria-hidden="true" id="feedback">
+  <div class="modal bs-modal-sm" tabindex=-1 role="dialog" aria-hidden="true" id="feedback">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -544,5 +538,4 @@
   <script src="/statics/app/app.min.js"></script>
   @section('addjs')
 </body>
-
 </html>
