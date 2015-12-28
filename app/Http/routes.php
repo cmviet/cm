@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-	return view('layouts.login');
-})->middleware('guest');
+// Home
+Route::get('/', 'HomeController@getIndex');
 
 // Authentication Routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
