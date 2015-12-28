@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="shortcut icon" href="/statics/favicon.ico">
   <link rel="stylesheet" href="/statics/styles/app.min.css">
-  @section('addcss')
+  @yield('addcss')
 </head>
 <body>
   <!-- quick launch panel -->
@@ -442,7 +442,7 @@
       
       <!-- main content -->
       <div class="main-content">
-        @section('content')
+        @yield('content')
       </div>
       <!-- /main content -->
       
@@ -536,6 +536,6 @@
   </div>
 </div>
   <script src="/statics/app/app.min.js"></script>
-  @section('addjs')
+  @yield('addjs')
 </body>
 </html>
