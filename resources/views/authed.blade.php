@@ -2,7 +2,7 @@
 <html class=" js no-touch csstransforms csstransforms3d svg" lang="vi"><head>
   <meta charset="utf-8">
   <title>@yield('title')</title>
-  <meta name="description" content="Sieubao Portal">
+  <meta name="description" content="CloudMedia Partners Portal">
   <meta name="viewport" content="width=device-width">
   <!--<meta id="refresh" http-equiv="REFRESH" content="910" />-->
   <link rel="shortcut icon" href="/statics/favicon.ico">
