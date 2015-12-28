@@ -69,7 +69,7 @@
 
         <!-- logo -->
         <a href="/"><div class="brand-logo">
-          <img src="/images/logo.png" height="15" alt="">
+          <img src="/statics/images/logo.png" height="15" alt="">
         </div></a>
         <!-- /logo -->
 
@@ -295,17 +295,17 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.cloudone.vn/tin-tuc/" target="_blank">
+                <a href="https://www.cloudmedia.vn/tin-tuc/" target="_blank">
                   <span>Tin Tức</span>
                 </a>
               </li>
               <li>
-                <a href="https://www.cloudone.vn/tai-lieu/" target="_blank">
+                <a href="https://www.cloudmedia.vn/tai-lieu/" target="_blank">
                   <span>Tài liệu hướng dẫn</span>
                 </a>
               </li>
               <li>
-                <a href="https://www.cloudone.vn/thac-mac-thuong-gap/" target="_blank">
+                <a href="https://www.cloudmedia.vn/thac-mac-thuong-gap/" target="_blank">
                   <span>Thắc mắc thường gặp</span>
                 </a>
               </li>
@@ -430,7 +430,7 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.cloudone.vn/thac-mac-thuong-gap/" target="_blank">Thắc mắc</a>
+                <a href="https://www.cloudmedia.vn/thac-mac-thuong-gap/" target="_blank">Thắc mắc</a>
               </li>
               <li>
                 <a href="/auth/logout">Đăng xuất</a>
