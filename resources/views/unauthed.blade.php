@@ -13,12 +13,12 @@
 			<div class="full-height">
 				<div class="center-wrapper">
 					<div class="center-content">
-						@section('content')
+						@yield('content')
 					</div>
 				</div>
 			</div>
 		</div>
 		<script src="/statics/app/app.min.js"></script>
-    @section('addjs')
+    		@yield('addjs')
 	</body>
 </html>
