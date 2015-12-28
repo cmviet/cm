@@ -113,7 +113,7 @@
               </li>
               <li>
                 <a href="/instance/panel">
-                  <span>CloudONE Panel</span>
+                  <span>CloudPanel</span>
                 </a>
               </li>
             </ul>
@@ -403,8 +403,8 @@
 
           <li>
             <a href="javascript:;" data-toggle="dropdown">
-              <img src="" class="header-avatar img-circle ml10" alt="user" title="user">
-              <span class="pull-left">Tên khách</span>
+              <img src="{{ $gavatar }}" class="header-avatar img-circle ml10" alt="user" title="user">
+              <span class="pull-left">{{ $client_name }}</span>
             </a>
             <ul class="dropdown-menu">
               <li>
