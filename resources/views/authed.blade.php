@@ -403,8 +403,8 @@
 
           <li>
             <a href="javascript:;" data-toggle="dropdown">
-              <img src="{{ $gavatar }}" class="header-avatar img-circle ml10" alt="user" title="user">
-              <span class="pull-left">{{ $client_name }}</span>
+              <img src="https://secure.gravatar.com/avatar/{{ md5( Auth::user()->email ) }}" class="header-avatar img-circle ml10" alt="user" title="user">
+              <span class="pull-left">{{ Auth::user()->name }}</span>
             </a>
             <ul class="dropdown-menu">
               <li>
