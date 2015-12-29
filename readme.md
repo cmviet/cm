@@ -1,2 +1,2 @@
-## Cloudmedia.vn Project, build on Laravel Framework
+## Cloudmedia.vn Project
 
